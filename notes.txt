@@ -1,0 +1,38 @@
+client == req ==> API ==> server ==> DB
+           res <========
+           (response time)  
+
+        req : http : POST GET PUT DELETE
+            crud : create read update delete
+
+API : Application Programming Interface 
+applications that communicate with a backend, merge external data with our UI
+
+
+fetch(url) ==> res  ==> JSON 
+axios.get(url) 
+
+fetch and axios are used to send http requests
+
+
+every url is an endpoint to the api 
+
+javaScript ==> synchronus ==> action 1 > action 2 > action 3 : blocking code : mayet3ada ela
+maye5dem 
+Node js ==> asynchronus ==> (action1,action2,action3) ==> eli ta7dher loula tet5dem
+asynchronus methods are needed in node js to manipulate data from API 
+
+old method
+fetch ===> fetch(url).then(res==>JSON).then(res==>setData(res))
+
+new method 
+es7
+async/await
+
+
+http status code 
+1xx ===> 5xx
+
+200 : success
+400 : client error 
+500 : server error
